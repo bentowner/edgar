@@ -2,7 +2,7 @@
 
 # edgar
 **EdgarBot** - Equini-ese converter
-
+ <p><b>E</b>quinix <b>D</b>escriptive <b>G</b>athering <b>A</b>cronyns <b>R</b>esponse.</p>
  <p>Edgar is the Equinix Bot.  Versused in Equin-ese (Corporate based Internal language based in acronyms of systems), can translate official meanings into Human understandable context.</p>
 ______
 
