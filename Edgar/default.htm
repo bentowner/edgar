@@ -3,12 +3,62 @@
 <head>
     <title></title>
     <meta charset="utf-8" />
+    <style>
+        div.container {
+            width: 100%;
+            border: 1px solid gray;
+        }
+
+        header, footer {
+            padding: 10px;
+            color: black;
+            background-color: white;
+            text-align: left;
+        }
+
+        nav {
+            float: left;
+            margin: 0;
+            padding: 1em;
+            border-right: 1px solid gray;
+        }
+
+            nav ul {
+                list-style-type: none;
+                padding:2px;
+            }
+
+                nav ul a {
+                    text-decoration: none;
+                }
+
+        topic {
+            margin-left: 10px;
+            padding:10px;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body style="font-family:'Segoe UI'">
-    
-    <h1><img src="https://bentowner.blob.core.windows.net/images/EPS.png" width="30" height="30" /> Edgar</h1>
-    <p><b>E</b>quinix <b>D</b>escriptive <b>G</b>athering <b>A</b>cronyns <b>R</b>esponse.</p>
-    <p>Edgar is the Equinix Bot.  Versused in Equin-ese (Corporate based Internal language based in acronyms of systems), can translate official meanings into Human understandable context.</p>
-    <p>Visit <a href="https://www.botframework.com/">Bot Framework</a> to register your bot. When you register it, remember to set your bot's endpoint to <pre>https://<i>your_bots_hostname</i>/api/messages</pre></p>
+    <div class="container">
+        <header>
+            <h1><img src="https://bentowner.blob.core.windows.net/images/EPS.png" width="30" height="30" /> Edgar</h1>
+            <p>&nbsp;&nbsp;<b>E</b>quinix <b>D</b>escriptive <b>G</b>athering <b>A</b>cronyns <b>R</b>esponse.</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Interconnection & Connectivity</a></li>
+                <li><a href="#">Data Centers & Colocation</a></li>
+                <li><a href="#">Equinix Performance Hub</a></li>
+                <li><a href="#">Equinix Data Hub</a></li>
+            </ul>
+        </nav>
+        <topic>
+            <h1>Overview</h1>
+            <p>Edgar is the Equinix Bot.  Versused in Equin-ese, a corporate defined set of phrases based on Internal language defined by acronyms of systems. This bot can translate official meanings into Human understandable context.</p>
+            <p>Visit <a href="https://www.botframework.com/">Bot Framework</a> to register your bot. When you register it, remember to set your bot's endpoint to: <pre> https://edgarbot.azurewebsites.net/api/messages </pre></p>
+        </topic>
+        <footer>Copyright &copy; Equinix</footer>
+    </div>
 </body>
 </html>
