@@ -1,0 +1,56 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "Edgar",
+  "desc": "Edgar is the Equinix Bot. Versed in Equin-ese, a corporate defined set of phrases obtained by acronyms of systems found within Internal Technology stacks, Partner Eco-system of products and developing Industry standards. This bot can translate official meanings into Human understandable context.",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Add the Acronym"
+    },
+    {
+      "name": "Define this"
+    },
+    {
+      "name": "Find the category"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Acronym"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [
+    "encyclopedia",
+    "url"
+  ],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "what is the meaning of",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "where did this come from?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what category is this",
+      "intent": "Find the category",
+      "entities": []
+    },
+    {
+      "text": "define this",
+      "intent": "Define this",
+      "entities": []
+    }
+  ]
+}
